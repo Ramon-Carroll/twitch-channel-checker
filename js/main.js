@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
           data = JSON.parse(channelReq.responseText);
           var logo = data.logo;
           if (logo === null) {
-            logo = "https://pixabay.com/static/uploads/photo/2014/02/21/07/57/question-mark-271039_960_720.jpg";
+            logo = "https://ramoncarroll.com/images/question-mark-271039_640.jpg";
           }
           render({
             name: data.display_name,
