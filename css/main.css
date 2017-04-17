@@ -15,11 +15,13 @@ body {
 }
 
 .top-border {
+    border-radius: 5px;
     height: 20px;
     background: #FFA000;
 }
 
 header {
+    border-radius: 5px;
     width: 100%;
     height: 160px;
     background: #FFC107;
